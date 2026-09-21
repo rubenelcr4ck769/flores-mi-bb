@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
+    <title>Flores amarillas</title>
+</head>
+<body>
+    <audio id="mi-audio" src="Crush - Cigarettes After Sex [p7lHdbL--Ls].mp3" autoplay loop muted></audio>
+
+    
+    
+    <svg id="svg" width="800" height="600"></svg>
+
+    <header>
+        <h1>Tus flores amarillas </h1>
+
+    </header>
+    <footer>
+        Presiona para que aparescan flores 
+    </footer>
+    <script src="script2.js"></script>
+
+    <script>
+document.body.addEventListener('click', () => {
+    const audio = document.getElementById('mi-audio');
+    audio.muted = false;
+    audio.play();
+});
+
+    </script>
+</body>
+</html>
